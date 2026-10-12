@@ -1,13 +1,21 @@
-# Trabalhos EBAC
+# Exercício 2 — IMC com React
 
-Exercícios organizados em uma branch para cada tarefa.
+Formulário React com altura em metros e peso em quilogramas. Ao enviar, calcula `peso / altura²`, exibe o valor do IMC e destaca a classificação na tabela para adultos. Os limites são aplicados ao valor sem arredondamento.
 
-| Exercício | Branch | Projeto |
-| --- | --- | --- |
-| 1 | [exercicio-01-vue-calculadora](https://github.com/lucasouzadev/trabalhos-ebac/tree/exercicio-01-vue-calculadora) | Calculadora aritmética com Vue |
-| 2 | [exercicio-02-react-imc](https://github.com/lucasouzadev/trabalhos-ebac/tree/exercicio-02-react-imc) | Formulário e classificação de IMC com React |
-| 3 | exercicio-03-styled-components | Aguardando o repositório do material de apoio |
-| 4 | [exercicio-04-redux](https://github.com/lucasouzadev/trabalhos-ebac/tree/exercicio-04-redux) | EBAC Sports com Redux Toolkit e RTK Query |
+## Executar
 
-Cada branch contém o código do exercício e as instruções para executar o projeto.
-Os forks exigidos pelos enunciados são identificados no README de cada exercício.
+Requer Node.js 22.12 ou superior.
+
+```sh
+npm ci
+npm run dev
+```
+
+Abra o endereço informado pelo Vite no terminal.
+
+```sh
+npm test
+npm run build
+```
+
+[Branch no GitHub](https://github.com/lucasouzadev/trabalhos-ebac/tree/exercicio-02-react-imc)
