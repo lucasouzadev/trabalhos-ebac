@@ -1,13 +1,21 @@
-# Trabalhos EBAC
+# Exercício 1 — Calculadora com Vue
 
-Exercícios organizados em uma branch para cada tarefa.
+Calculadora aritmética com Vue 3: dois campos numéricos e um select com adição, subtração, multiplicação e divisão. O resultado usa `computed` e muda automaticamente, sem botão. Campos vazios e divisão por zero exibem uma mensagem.
 
-| Exercício | Branch | Projeto |
-| --- | --- | --- |
-| 1 | [exercicio-01-vue-calculadora](https://github.com/lucasouzadev/trabalhos-ebac/tree/exercicio-01-vue-calculadora) | Calculadora aritmética com Vue |
-| 2 | [exercicio-02-react-imc](https://github.com/lucasouzadev/trabalhos-ebac/tree/exercicio-02-react-imc) | Formulário e classificação de IMC com React |
-| 3 | exercicio-03-styled-components | Aguardando o repositório do material de apoio |
-| 4 | [exercicio-04-redux](https://github.com/lucasouzadev/trabalhos-ebac/tree/exercicio-04-redux) | EBAC Sports com Redux Toolkit e RTK Query |
+## Executar
 
-Cada branch contém o código do exercício e as instruções para executar o projeto.
-Os forks exigidos pelos enunciados são identificados no README de cada exercício.
+Requer Node.js 22.12 ou superior.
+
+```sh
+npm ci
+npm run dev
+```
+
+Abra o endereço informado pelo Vite no terminal.
+
+```sh
+npm test
+npm run build
+```
+
+[Branch no GitHub](https://github.com/lucasouzadev/trabalhos-ebac/tree/exercicio-01-vue-calculadora)
